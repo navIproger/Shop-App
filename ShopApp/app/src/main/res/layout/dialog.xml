@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/priceDialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/text_price_1"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/wlsDialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/text_wls_item"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/amountDialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/text_amount_optionally"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/codeDialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/text_code_optionally"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/nameDialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/text_name_optionally"
+            android:inputType="text"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/btn_add"
+        android:layout_below="@id/layout"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

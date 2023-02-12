@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/priceList"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10dp"
+            android:layout_toLeftOf="@id/amountList"
+            android:text="@string/text_price_2"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/nameList"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/text_name"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/amountList"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/text_amount_1"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_sell"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:text="@string/btn_sell"
+            android:layout_below="@id/priceList"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:focusableInTouchMode="false"
+            android:focusable="false"/>
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:text="@string/btn_edit"
+            android:layout_below="@id/priceList"
+            android:layout_marginStart="20dp"
+            android:focusableInTouchMode="false"
+            android:focusable="false"/>
+
+
+</RelativeLayout>

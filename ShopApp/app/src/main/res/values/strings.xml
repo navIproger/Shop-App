@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Shop App</string>
+
+    <string name="btn_list">Список</string>
+    <string name="btn_main">Головна</string>
+    <string name="btn_action">Дії</string>
+    <string name="btn_add">Додати</string>
+    <string name="btn_clear_list">Очистити базу даних</string>
+    <string name="btn_clear_stats">Очистити статистику</string>
+    <string name="btn_sell">Продаж</string>
+    <string name="btn_edit">Редагувати</string>
+    
+    <string name="text_price_1">Процент націники</string>
+    <string name="text_priceWls">Ціна закупки</string>
+    <string name="text_amount_1">Кількість</string>
+    <string name="text_code">Код</string>
+    <string name="text_name">Назва</string>
+    <string name="text_price_2">Ціна</string>
+    <string name="text_amount_2">ШТ</string>
+    <string name="text_kind_item">Видів товару: </string>
+    <string name="text_amount_item">Кількість товарів: </string>
+    <string name="text_price_item">Вартість товару: </string>
+    <string name="text_wls_item">Закупна вартість: </string>
+    <string name="text_sell_item">Продано ШТ: </string>
+    <string name="text_profit_item">Прибуток:</string>
+    <string name="text_clean_profit_item">Чистий прибуток: </string>
+    <string name="text_amount_optionally">Кількість (Необов`язково)</string>
+    <string name="text_code_optionally">Код (Необов`язково)</string>
+    <string name="text_name_optionally">Назва (Необов`язково)</string>
+
+</resources>

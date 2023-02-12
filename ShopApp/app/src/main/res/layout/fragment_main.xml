@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:hint="@string/text_kind_item"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        android:hint="@string/text_amount_item"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="50dp"
+        android:hint="@string/text_price_item"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:hint="@string/text_wls_item"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginStart="50dp"
+        android:hint="@string/text_sell_item"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="50dp"
+        android:hint="@string/text_profit_item"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="50dp"
+        android:hint="@string/text_clean_profit_item"/>
+
+    <TextView
+        android:id="@+id/kindTotal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="200dp"
+        android:hint="@string/text_kind_item"/>
+
+    <TextView
+        android:id="@+id/amountTotal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="200dp"
+        android:hint="@string/text_amount_item"/>
+
+    <TextView
+        android:id="@+id/priceTotal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="200dp"
+        android:hint="@string/text_price_item"/>
+
+    <TextView
+        android:id="@+id/wlsTotal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="200dp"
+        android:hint="@string/text_wls_item"/>
+
+    <TextView
+        android:id="@+id/sellTotal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginStart="200dp"
+        android:hint="@string/text_sell_item"/>
+
+    <TextView
+        android:id="@+id/profitTotal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="200dp"
+        android:hint="@string/text_profit_item"/>
+
+    <TextView
+        android:id="@+id/cleanProfitTotal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="200dp"
+        android:hint="@string/text_clean_profit_item"/>
+
+    <Button
+        android:id="@+id/clearArr"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_below="@id/wlsTotal"
+        android:text='@string/btn_clear_list'/>
+
+    <Button
+        android:id="@+id/clearStats"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_below="@id/cleanProfitTotal"
+        android:text="@string/btn_clear_stats"/>
+
+</RelativeLayout>
